@@ -1,5 +1,7 @@
 package main.java.iphone.interfaces;
 
-public class MusicPlayer {
-  
+public interface MusicPlayer {
+    void play();
+    void pause();
+    void selectMusic(String music);
 }
