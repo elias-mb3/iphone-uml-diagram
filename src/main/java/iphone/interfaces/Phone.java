@@ -1,7 +1,7 @@
 package main.java.iphone.interfaces;
 
-public class Phone {
-  void call(String number) {}
-  void answer() {}
-  void startVoicemail() {}
-}
+public interface Phone {
+  static void call(String number) {}
+  static void answer() {}
+  static void startVoicemail() {}
+} 

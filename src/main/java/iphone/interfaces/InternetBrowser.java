@@ -1,7 +1,7 @@
 package main.java.iphone.interfaces;
 
-public class InternetBrowser {
-  void displayPage(String url) {}
-  void addNewTab() {}
-  void refreshPage() {}
-}
+public interface InternetBrowser {
+  static void displayPage(String url) {}
+  static void addNewTab() {}
+  static void refreshPage() {}
+} 
